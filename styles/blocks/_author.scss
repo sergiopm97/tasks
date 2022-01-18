@@ -12,4 +12,16 @@
     font-weight: 700;
     color: #000000;
     margin: 1rem;
+
+    @include responsive(desktop) {
+        font-size: 1rem;
+    }
+
+    @include responsive(tablet) {
+        font-size: 0.9rem;
+    }
+
+    @include responsive(mobile) {
+        font-size: 0.8rem;
+    }
 }
