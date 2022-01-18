@@ -1,0 +1,43 @@
+.form-container {
+    margin: auto;
+    flex-direction: column;
+    padding: 2rem 0rem 2rem 0rem;
+    align-items: center;
+    display: flex;
+    width: 50vw;
+}
+
+.form-title {
+    font-weight: 900;
+    text-align: center;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    color: #FFFFFF;
+    margin-top: 0;
+}
+
+.task-input {
+    padding-left: 1rem;
+    font-weight: 700;
+}
+
+.submit-button {
+    color: #000000;
+    font-weight: 900;
+    border: 2px solid #000000;
+    background-color: #FCA311;
+    cursor: pointer;
+    height: 2.2rem;
+    width: 10%;
+
+    &:hover {
+        border: 2px solid #FCA311;
+        background-color: #000000;
+        color: #FCA311;
+    }
+
+    &:active {
+        border: 2px solid #000000;
+        background-color: #FCA311;
+        color: #000000;
+    }
+}
