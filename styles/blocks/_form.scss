@@ -5,6 +5,18 @@
     align-items: center;
     display: flex;
     width: 50vw;
+
+    @include responsive(desktop) {
+        width: 75vw;
+    }
+
+    @include responsive(tablet) {
+        width: 85vw;
+    }
+
+    @include responsive(mobile) {
+        width: 90vw;
+    }
 }
 
 .form-title {
@@ -13,6 +25,18 @@
     padding: 0.5rem 0rem 0.5rem 0rem;
     color: #FFFFFF;
     margin-top: 0;
+
+    @include responsive(desktop) {
+        font-size: 1.8rem;
+    }
+
+    @include responsive(tablet) {
+        font-size: 1.7rem;
+    }
+
+    @include responsive(mobile) {
+        font-size: 1.6rem;
+    }
 }
 
 .task-input {
